@@ -13,7 +13,7 @@ public class PrimeExample4 {
            }  
        }  
    }  
-   public static boolean isPrime(int n) {  
+   public static boolisPrime(int n) {  
        if (n <= 1) {  
            return false;  
        }  
