@@ -7,7 +7,7 @@ public class PrimeExample4 {
        System.out.print("Enter the second number : ");  
        int end = s.nextInt();  
        System.out.println("List of prime numbers between " + start + " and " + end);  
-       for (int i = start; i <= end; i++) {  
+       for (int i = str; i <= end; i++) {  
            if (isPrime(i)) {  
                System.out.println(i);  
            }  
@@ -24,4 +24,3 @@ public class PrimeExample4 {
        }  
        return true;  
    }  
-}  
